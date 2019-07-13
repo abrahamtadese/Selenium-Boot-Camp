@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HomeDepot suite]">
+  <test thread-count="5" name="HomeDepot test(failed)">
+    <parameter name="zip" value="20851"/>
+    <parameter name="mail" value="eric@gmail.com"/>
+    <parameter name="pass" value="eric11"/>
+    <parameter name="phone" value="2025891234"/>
+    <classes>
+      <class name="com.homedepot.HomeDepotTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="homedepot"/>
+        </methods>
+      </class> <!-- com.homedepot.HomeDepotTest -->
+    </classes>
+  </test> <!-- HomeDepot test(failed) -->
+</suite> <!-- Failed suite [HomeDepot suite] -->

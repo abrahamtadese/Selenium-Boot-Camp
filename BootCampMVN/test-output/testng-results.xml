@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HomeDepot suite" duration-ms="19093" started-at="2019-07-13T18:44:23Z" finished-at="2019-07-13T18:44:42Z">
+    <groups>
+    </groups>
+    <test name="HomeDepot test" duration-ms="19093" started-at="2019-07-13T18:44:23Z" finished-at="2019-07-13T18:44:42Z">
+      <class name="com.homedepot.HomeDepotTest">
+        <test-method status="PASS" signature="homedepot(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.homedepot.HomeDepotTest@343f4d3d]" name="homedepot" duration-ms="19065" started-at="2019-07-13T18:44:23Z" finished-at="2019-07-13T18:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abrahamtadese@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[josiah12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20853]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3012831667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homedepot -->
+      </class> <!-- com.homedepot.HomeDepotTest -->
+    </test> <!-- HomeDepot test -->
+  </suite> <!-- HomeDepot suite -->
+</testng-results>

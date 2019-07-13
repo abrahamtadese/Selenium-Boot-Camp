@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="HomeDepot suite">
+  <test  name="HomeDepot test">
+  
+ 	 <parameter name="browser" value="chrome"/>
+	<parameter name="url" value="https://www.homedepot.com/"/>
+	
+	<parameter name="mail" value="abrahamtadese@gmail.com"/>
+	<parameter name="pass" value="josiah12"/>
+	<parameter name="zip" value="20853"/>
+	<parameter name="phone" value="3012831667"/>
+	
+    <classes>
+      <class name="com.homedepot.HomeDepotTest"/>
+      <class name="com.homedepot.HomeDepotRegister"/>
+      <class name="Utility.StartBrowser"/>
+    </classes>
+  </test> 
+</suite> 
+            
